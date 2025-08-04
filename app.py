@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load the trained model
-model = load_model('mobilenet_skin_disease_model.h5')
+model = load_model('model_compressed.pth')
 
 # Categories used during training
 CATEGORIES = [
